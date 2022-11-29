@@ -35,9 +35,12 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 64px;
 }
 .header p{
-    padding-bottom: 48px;
+    width: 304px;
+    text-align: left;
+    color: #000;
 }
 .connect{
     display: flex;
@@ -52,13 +55,38 @@ li{
 }
 .content ul{
     margin-bottom: 48px;
+    width: 384px;
+    margin: 0 auto;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .five h2{
     margin-bottom: 40px;
 }
+.five img{
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.five p{
+    color: #000;
+    padding-bottom: 12px;
+}
+.five ul{
+    width: 384px;
+    border-top: 1px solid #000;
+    margin-bottom: 56px;
+}
+.five li{
+    color: #000;
+    padding-top: 32px;
+    list-style-type: circle ;
+}
 .two{
     width: 100%;
-    height: 1047px;
+    height: 1182px;
     background-color: #000;
     margin-bottom: 64px;
     padding: 64px 0 160px;
@@ -70,6 +98,12 @@ li{
     color: #fff;
     text-align: center;
 }
+.two ul{
+    margin-bottom: 40px;
+}
+.two ul img{
+    padding-top: 48px;;
+}
 .three h2{
     margin-bottom: 24px;
 }
@@ -78,10 +112,11 @@ li{
     flex-wrap: wrap;
 }
 .brand{
-    width: 1200px;
+    width: 1224px;
     margin: 0 auto;
-    justify-content: space-between;
-    margin-top: 40px;
+}
+.brand img{
+    padding: 0 12px;;
 }
 .works, .paint{
     display: flex;
